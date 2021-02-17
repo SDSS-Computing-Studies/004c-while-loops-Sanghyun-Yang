@@ -13,3 +13,12 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+x = int(1)
+y = int(1)
+sum = int()
+
+while sum < 100:
+    sum = x + y
+    print(x, y, sum, end=" ")
+    x = y
+    y = sum  
