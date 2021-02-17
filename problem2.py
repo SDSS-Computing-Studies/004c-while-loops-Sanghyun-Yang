@@ -15,3 +15,8 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+x = int(input())
+count = int()
+while count != 12:
+    count = count + 1
+    print(x * count, end=" " )
