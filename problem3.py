@@ -16,9 +16,9 @@ Example:
 x = int(1)
 y = int(1)
 sum = int()
-
+print(1, 1, end=" ")
 while sum < 100:
     sum = x + y
-    print(x, y, sum, end=" ")
+    print(sum, end=" ")
     x = y
     y = sum  
