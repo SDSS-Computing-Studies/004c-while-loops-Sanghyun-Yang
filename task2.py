@@ -15,12 +15,12 @@ outputs:
 Access granted
 Access denied
 """
-username = str(input()).strip()
-password = str().strip()
-while username != "admin":
-    username = input().strip()
-while username == "admin":
-    while password != "12345":
-        password = str(input()).strip()
-        if password == "12345":
-            print("Access granted")
+username = input("username: ").strip()
+password = input("password: ").strip()
+
+while (username != "admin" and password != "12345") or (username == "admin" and password != "12345") or (username != "admin" and password == "12345"):
+    print("Access denied")
+    username = input("username: ").strip()
+    password = input("password: ").strip()
+if username == "admin" and password == "12345":
+    print("Access granted")
