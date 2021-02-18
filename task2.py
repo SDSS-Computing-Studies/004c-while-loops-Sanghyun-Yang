@@ -24,3 +24,4 @@ while username == "admin":
         password = str(input()).strip()
         if password == "12345":
             print("Access granted")
+            break
