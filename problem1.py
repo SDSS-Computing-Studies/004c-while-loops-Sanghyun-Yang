@@ -26,4 +26,4 @@ while (username != "admin" and password != "12345") or (username == "admin" and 
     password = input("password: ").strip()
 if username == "admin" and password == "12345":
     print("Access granted")
-            print("Access granted")
+            
