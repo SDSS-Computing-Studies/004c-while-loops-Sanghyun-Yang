@@ -17,6 +17,10 @@ outputs:
 Access granted
 Access denied
 """
+username = input("username: ").strip()
+password = input("password: ").strip()
+count = 0
+
 while (username != "admin" and password != "12345") or (username == "admin" and password != "12345") or (username != "admin" and password == "12345"):
     print("Access denied")
     count += 1
