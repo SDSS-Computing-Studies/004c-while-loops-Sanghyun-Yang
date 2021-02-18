@@ -18,7 +18,7 @@ Access denied
 username = str(input())
 password = str()
 while username != "admin":
-    username = str(input())
+    username = input()
 while username == "admin":
     while password != "12345":
         password = str(input())
